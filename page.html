@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Imane Bouabid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <header class="conteneur entete">
+    <a href="#accueil" class="logo">Imane Bouabid</a>
+    <nav aria-label="Navigation principale" class="menu">
+      <a href="#profil">Profil</a>
+      <a href="#projets">Projets</a>
+      <a href="#citation">Citation</a>
+      <a href="#contact" class="bouton-menu">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ACCUEIL : nom à gauche, photo à droite -->
+    <section id="accueil" class="conteneur accueil">
+      <div class="accueil-texte">
+        <span class="etiquette">Portfolio</span>
+        <h1>Imane<br>Bouabid</h1>
+        <p class="metier">Développeuse Web & Software Engineer</p>
+        <p class="intro">Élève ingénieure en dernière année de Génie Informatique à l’ENSA Safi, passionnée par le développement web et la conception de solutions numériques. J’aime transformer des idées en applications utiles, intuitives et bien conçues.
+
+À la recherche d’un Projet de Fin d’Études (PFE) pour mettre mes compétences en pratique et contribuer à des projets concrets.</p>
+        <div class="boutons">
+          <a href="CV.pdf" class="bouton bouton-plein" download>Télécharger mon CV ↓</a>
+          <a href="#contact" class="bouton bouton-contour">Me contacter</a>
+        </div>
+      </div>
+
+      <!-- Pour votre photo : <img src="photo.jpg" alt="Portrait de [Prénom Nom]" class="photo"> -->
+      <div class="photo"><img src="photo.jpeg" alt="Portrait de [Prénom Nom]" class="photo"></div>
+    </section>
+
+    <!-- PROFIL -->
+    <section id="profil" class="conteneur profil">
+      <div class="profil-texte">
+        <span class="etiquette">Profil</span>
+        <h2>Qui je suis</h2>
+        <p>Je suis une élève ingénieure en Génie Informatique à l’École Nationale des Sciences Appliquées de Safi. Je m’intéresse particulièrement au développement web, à la conception d’applications et à la résolution de problèmes grâce à la programmation.</p>
+        <p>À travers mes projets académiques, j’ai travaillé avec différentes technologies frontend et backend, participé à la conception d’API et collaboré au développement d’applications complètes. J’apprécie également le travail en équipe, l’apprentissage continu et la recherche de solutions simples à des problèmes concrets.
+
+Je recherche un Projet de Fin d’Études dans le développement logiciel ou web, où je pourrai approfondir mes compétences et contribuer à des projets à valeur ajoutée.</p>
+      </div>
+
+      <dl class="fiche">
+        <div><dt>Formation</dt><dd>Cycle ingénieur — Génie Informatique, ENSA Safi</dd></div>
+        <div><dt>Expérience</dt><dd>Stage chez Leansoft · 2026</dd></div>
+        <div><dt>Compétences</dt><dd>React, Java, Spring Boot, Python, SQL</dd></div>
+        <div><dt>Langues</dt><dd>Arabe, français, anglais</dd></div>
+        <div><dt>Centres d'intérêt</dt><dd>Développement web, UI/UX, apprentissage continu</dd></div>
+      </dl>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="conteneur projets">
+      <span class="etiquette">Projets</span>
+      <h2>Mes réalisations</h2>
+
+      <div class="liste-projets">
+        <a href="#" class="projet">
+          <span class="numero">01</span>
+          <div class="projet-texte">
+            <h3>Plateforme intelligente de réservation et découverte de voyages</h3>
+            <p>Développement de l’interface utilisateur avec React et intégration d’API REST.
+— Implémentation des fonctionnalités de réservation et collaboration avec l’équipe backend.
+</p>
+          </div>
+          <div class="projet-infos">
+            <span class="pastille">Développement frontend · React · Spring Boot</span>
+            <span class="voir">Voir →</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Imane-Bouabid/gestion-des-evenements" class="projet">
+          <span class="numero">02</span>
+          <div class="projet-texte">
+            <h3>Plateforme de gestion d’événements</h3>
+            <p>Pilotage d’une équipe de 7 étudiants et coordination du développement de la plateforme.
+— Coordination de l’intégration React, Spring Boot et MySQL et suivi de l’avancement du projet.</p>
+          </div>
+          <div class="projet-infos">
+            <span class="pastille">Gestion d’équipe · React · MySQL</span>
+            <span class="voir">Voir →</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/Imane-Bouabid/Gestion-academique" class="projet">
+          <span class="numero">03</span>
+          <div class="projet-texte">
+            <h3>Plateforme de gestion académique</h3>
+            <p>Développement des interfaces avec React et intégration de l’authentification et de la gestion des rôles.
+— Intégration avec le backend et participation aux tests fonctionnels de l’application.</p>
+          </div>
+          <div class="projet-infos">
+            <span class="pastille">Développement frontend·React· PHP</span>
+            <span class="voir">Voir →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- CITATION -->
+    <section id="citation" class="citation">
+      <figure>
+        <span class="guillemet" aria-hidden="true">“</span>
+        <blockquote>A developer is a witch that brings back ideas to life.</blockquote>
+        <figcaption>—Bouabid Imane</figcaption>
+      </figure>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="conteneur contact">
+      <span class="etiquette">Contact</span>
+      <h2>Discutons de votre projet</h2>
+      <p>Vous avez un projet à développer ou une opportunité de PFE à proposer ? Je serais ravie d’échanger avec vous et de découvrir comment je pourrais contribuer à votre équipe.
+
+N’hésitez pas à me contacter pour discuter de vos projets et de nouvelles opportunités professionnelles.</p>
+      <div class="boutons">
+        <a href="mailto:imanebouabid77@gmail.com" class="bouton bouton-plein">imanebouabid77@gmail.com</a>
+        <a href="https://www.linkedin.com/in/imane-bouabid-7335a227b/" class="bouton bouton-contour">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="conteneur pied">
+    <span>© 2026 Imane Bouabid</span>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+</body>
+</html>
